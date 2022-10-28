@@ -3,19 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06FD08CCB69FE4C5208F8259 /* Pods_L_TECH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F912B8F7ECEF9AE97280957 /* Pods_L_TECH.framework */; };
+		5275B222290B2BC90043BE5F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B221290B2BC90043BE5F /* Article.swift */; };
+		5275B225290BC4360043BE5F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B224290BC4360043BE5F /* NetworkManager.swift */; };
+		5275B229290BD62C0043BE5F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B228290BD62C0043BE5F /* ImageManager.swift */; };
+		5275B22C290BD9950043BE5F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B22B290BD9950043BE5F /* Extentions.swift */; };
+		5275B230290C3EF30043BE5F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B22F290C3EF30043BE5F /* DetailsViewController.swift */; };
+		5275B233290C4EA50043BE5F /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B232290C4EA50043BE5F /* DateManager.swift */; };
 		52A17905290ACE5800758BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17904290ACE5800758BBC /* AppDelegate.swift */; };
 		52A17907290ACE5800758BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17906290ACE5800758BBC /* SceneDelegate.swift */; };
 		52A17909290ACE5800758BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17908290ACE5800758BBC /* ViewController.swift */; };
 		52A1790C290ACE5800758BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A1790A290ACE5800758BBC /* Main.storyboard */; };
 		52A1790E290ACE5900758BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A1790D290ACE5900758BBC /* Assets.xcassets */; };
 		52A17911290ACE5900758BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A1790F290ACE5900758BBC /* LaunchScreen.storyboard */; };
+		52A17919290ACFEE00758BBC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17918290ACFEE00758BBC /* MainTabBarController.swift */; };
+		52A1791B290AD10400758BBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1791A290AD10400758BBC /* LoginViewController.swift */; };
+		52A1791D290AD1B800758BBC /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1791C290AD1B800758BBC /* FavouritesViewController.swift */; };
+		52A1791F290AD1F900758BBC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1791E290AD1F900758BBC /* ProfileViewController.swift */; };
+		52A17921290AD2BE00758BBC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17920290AD2BE00758BBC /* FeedViewController.swift */; };
+		52A17923290AEBCA00758BBC /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17922290AEBCA00758BBC /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		52A1792A290AF24D00758BBC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2E72858D9B1B154EE9E50D72 /* Pods-L-TECH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L-TECH.debug.xcconfig"; path = "Target Support Files/Pods-L-TECH/Pods-L-TECH.debug.xcconfig"; sourceTree = "<group>"; };
+		3F912B8F7ECEF9AE97280957 /* Pods_L_TECH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_L_TECH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5275B221290B2BC90043BE5F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		5275B224290BC4360043BE5F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5275B228290BD62C0043BE5F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		5275B22B290BD9950043BE5F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		5275B22F290C3EF30043BE5F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5275B232290C4EA50043BE5F /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 		52A17901290ACE5800758BBC /* L-TECH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L-TECH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A17904290ACE5800758BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A17906290ACE5800758BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +58,13 @@
 		52A1790D290ACE5900758BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A17910290ACE5900758BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A17912290ACE5900758BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A17918290ACFEE00758BBC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		52A1791A290AD10400758BBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52A1791C290AD1B800758BBC /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		52A1791E290AD1F900758BBC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		52A17920290AD2BE00758BBC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		52A17922290AEBCA00758BBC /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		89E476CAB4E1E8F4E08DBD84 /* Pods-L-TECH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L-TECH.release.xcconfig"; path = "Target Support Files/Pods-L-TECH/Pods-L-TECH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FD08CCB69FE4C5208F8259 /* Pods_L_TECH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EF26B652097449607F693AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E72858D9B1B154EE9E50D72 /* Pods-L-TECH.debug.xcconfig */,
+				89E476CAB4E1E8F4E08DBD84 /* Pods-L-TECH.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5275B220290B2B970043BE5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5275B221290B2BC90043BE5F /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5275B223290BC4250043BE5F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5275B224290BC4360043BE5F /* NetworkManager.swift */,
+				5275B228290BD62C0043BE5F /* ImageManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5275B22A290BD9810043BE5F /* Utls */ = {
+			isa = PBXGroup;
+			children = (
+				5275B22B290BD9950043BE5F /* Extentions.swift */,
+			);
+			path = Utls;
+			sourceTree = "<group>";
+		};
+		5275B231290C4E900043BE5F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5275B232290C4EA50043BE5F /* DateManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		52A178F8290ACE5800758BBC = {
 			isa = PBXGroup;
 			children = (
 				52A17903290ACE5800758BBC /* L-TECH */,
 				52A17902290ACE5800758BBC /* Products */,
+				1EF26B652097449607F693AF /* Pods */,
+				720F2434DFECCE8FFCF01F86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +142,19 @@
 		52A17903290ACE5800758BBC /* L-TECH */ = {
 			isa = PBXGroup;
 			children = (
+				5275B220290B2B970043BE5F /* Model */,
 				52A17904290ACE5800758BBC /* AppDelegate.swift */,
 				52A17906290ACE5800758BBC /* SceneDelegate.swift */,
+				52A17918290ACFEE00758BBC /* MainTabBarController.swift */,
+				52A1791A290AD10400758BBC /* LoginViewController.swift */,
+				52A17920290AD2BE00758BBC /* FeedViewController.swift */,
+				5275B22F290C3EF30043BE5F /* DetailsViewController.swift */,
+				52A17922290AEBCA00758BBC /* FeedCell.swift */,
+				52A1791C290AD1B800758BBC /* FavouritesViewController.swift */,
+				52A1791E290AD1F900758BBC /* ProfileViewController.swift */,
+				5275B231290C4E900043BE5F /* Managers */,
+				5275B223290BC4250043BE5F /* API */,
+				5275B22A290BD9810043BE5F /* Utls */,
 				52A17908290ACE5800758BBC /* ViewController.swift */,
 				52A1790A290ACE5800758BBC /* Main.storyboard */,
 				52A1790D290ACE5900758BBC /* Assets.xcassets */,
@@ -67,6 +164,14 @@
 			path = "L-TECH";
 			sourceTree = "<group>";
 		};
+		720F2434DFECCE8FFCF01F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F912B8F7ECEF9AE97280957 /* Pods_L_TECH.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52A17915290ACE5900758BBC /* Build configuration list for PBXNativeTarget "L-TECH" */;
 			buildPhases = (
+				9F12FAB9B965ADA2821646E4 /* [CP] Check Pods Manifest.lock */,
 				52A178FD290ACE5800758BBC /* Sources */,
 				52A178FE290ACE5800758BBC /* Frameworks */,
 				52A178FF290ACE5800758BBC /* Resources */,
+				52A1792A290AF24D00758BBC /* Embed Frameworks */,
+				4C6968AD4D3B85CDA287251B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +240,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C6968AD4D3B85CDA287251B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-L-TECH/Pods-L-TECH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-L-TECH/Pods-L-TECH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-L-TECH/Pods-L-TECH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F12FAB9B965ADA2821646E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-L-TECH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52A178FD290ACE5800758BBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A1791D290AD1B800758BBC /* FavouritesViewController.swift in Sources */,
+				5275B233290C4EA50043BE5F /* DateManager.swift in Sources */,
 				52A17909290ACE5800758BBC /* ViewController.swift in Sources */,
+				52A17923290AEBCA00758BBC /* FeedCell.swift in Sources */,
 				52A17905290ACE5800758BBC /* AppDelegate.swift in Sources */,
+				5275B222290B2BC90043BE5F /* Article.swift in Sources */,
+				52A17919290ACFEE00758BBC /* MainTabBarController.swift in Sources */,
+				5275B22C290BD9950043BE5F /* Extentions.swift in Sources */,
+				52A1791F290AD1F900758BBC /* ProfileViewController.swift in Sources */,
+				52A1791B290AD10400758BBC /* LoginViewController.swift in Sources */,
+				52A17921290AD2BE00758BBC /* FeedViewController.swift in Sources */,
+				5275B225290BC4360043BE5F /* NetworkManager.swift in Sources */,
 				52A17907290ACE5800758BBC /* SceneDelegate.swift in Sources */,
+				5275B229290BD62C0043BE5F /* ImageManager.swift in Sources */,
+				5275B230290C3EF30043BE5F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +445,14 @@
 		};
 		52A17916290ACE5900758BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E72858D9B1B154EE9E50D72 /* Pods-L-TECH.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BMP8HX9Y5;
 				INFOPLIST_FILE = "L-TECH/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +466,14 @@
 		};
 		52A17917290ACE5900758BBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E476CAB4E1E8F4E08DBD84 /* Pods-L-TECH.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BMP8HX9Y5;
 				INFOPLIST_FILE = "L-TECH/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
