@@ -12,5 +12,7 @@ pod 'Alamofire'
 pod 'Kingfisher', '~> 7.0'
 pod 'SwiftyJSON', '~> 4.0'
 pod 'JGProgressHUD'
+pod 'AnyFormatKit', '~> 2.5.2'
+pod 'KeychainAccess'
 
 end

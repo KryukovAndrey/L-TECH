@@ -16,7 +16,7 @@ final class MainTabController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
-//        checkIfUserIsLoggedIn()
+        checkIfUserIsLoggedIn()
         fetchUser()
     }
     
@@ -29,23 +29,33 @@ final class MainTabController: UITabBarController {
 //         }
     }
     
-    private func checkIfUserIsLoggedIn(){
+    private func checkIfUserIsLoggedIn() {
+        
+        let phoneNumber = DataManagerAccount.shared.phoneNumber
+        let mask = DataManagerAccount.shared.mask
+        let password = DataManagerAccount.shared.password
+
         DispatchQueue.main.async {
-            let controller = LoginController()
-//            controller.delegate = self
+            let controller = LoginViewController()
+            if phoneNumber != nil,
+               mask != nil,
+               password != nil {
+                controller.phoneNumber = phoneNumber
+                controller.mask = mask
+                controller.password = password
+            }
+            controller.delegate = self
             let nav = UINavigationController(rootViewController: controller)
             nav.modalPresentationStyle = .fullScreen
             self.present(nav, animated: true, completion: nil)
         }
     }
     
-    // MARK: - Helpers
+    // MARK: - Private func
     
     private func configureViewController() {
         view.backgroundColor = .white
-                
-//        let layout = UICollectionViewFlowLayout()
-//        let feed = templateNavigationController(unselectedImage: #imageLiteral(resourceName: "home_unselected"), selectedImage: #imageLiteral(resourceName: "home_selected"), rootViewController: FeedViewController(collectionViewLayout: layout))
+        
         let feed = templateNavigationController(unselectedImage: #imageLiteral(resourceName: "icon_home"), selectedImage: #imageLiteral(resourceName: "icon_home"), rootViewController: FeedViewController())
         
         let favourites = templateNavigationController(unselectedImage: #imageLiteral(resourceName: "icon_heart"), selectedImage: #imageLiteral(resourceName: "icon_heart"), rootViewController: FavouritesViewController())
@@ -77,9 +87,9 @@ final class MainTabController: UITabBarController {
 
 // MARK: - AuthenticationDelegate
 
-//extension MainTabController: AuthenticationDelegate {
-//    func authenticationDidComplete() {
-//        fetchUser()
-//        self.dismiss(animated: true, completion: nil)
-//    }
-//}
+extension MainTabController: AuthenticationDelegate {
+    func authenticationDidComplete() {
+        fetchUser()
+        self.dismiss(animated: true, completion: nil)
+    }
+}

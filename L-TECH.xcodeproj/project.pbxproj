@@ -14,6 +14,8 @@
 		5275B22C290BD9950043BE5F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B22B290BD9950043BE5F /* Extentions.swift */; };
 		5275B230290C3EF30043BE5F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B22F290C3EF30043BE5F /* DetailsViewController.swift */; };
 		5275B233290C4EA50043BE5F /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275B232290C4EA50043BE5F /* DateManager.swift */; };
+		52767B34291135A500F7CD16 /* DataManagerAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52767B33291135A500F7CD16 /* DataManagerAccount.swift */; };
+		5294F455290D3E06001EBB98 /* PhoneMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294F454290D3E05001EBB98 /* PhoneMask.swift */; };
 		52A17905290ACE5800758BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17904290ACE5800758BBC /* AppDelegate.swift */; };
 		52A17907290ACE5800758BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17906290ACE5800758BBC /* SceneDelegate.swift */; };
 		52A17909290ACE5800758BBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17908290ACE5800758BBC /* ViewController.swift */; };
@@ -26,6 +28,7 @@
 		52A1791F290AD1F900758BBC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1791E290AD1F900758BBC /* ProfileViewController.swift */; };
 		52A17921290AD2BE00758BBC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17920290AD2BE00758BBC /* FeedViewController.swift */; };
 		52A17923290AEBCA00758BBC /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A17922290AEBCA00758BBC /* FeedCell.swift */; };
+		52D26D50290FF49C004F0CF3 /* AuthSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D26D4F290FF49C004F0CF3 /* AuthSuccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +53,8 @@
 		5275B22B290BD9950043BE5F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		5275B22F290C3EF30043BE5F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		5275B232290C4EA50043BE5F /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		52767B33291135A500F7CD16 /* DataManagerAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerAccount.swift; sourceTree = "<group>"; };
+		5294F454290D3E05001EBB98 /* PhoneMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneMask.swift; sourceTree = "<group>"; };
 		52A17901290ACE5800758BBC /* L-TECH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L-TECH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A17904290ACE5800758BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A17906290ACE5800758BBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		52A1791E290AD1F900758BBC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		52A17920290AD2BE00758BBC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		52A17922290AEBCA00758BBC /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		52D26D4F290FF49C004F0CF3 /* AuthSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSuccess.swift; sourceTree = "<group>"; };
 		89E476CAB4E1E8F4E08DBD84 /* Pods-L-TECH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L-TECH.release.xcconfig"; path = "Target Support Files/Pods-L-TECH/Pods-L-TECH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				5275B221290B2BC90043BE5F /* Article.swift */,
+				5294F454290D3E05001EBB98 /* PhoneMask.swift */,
+				52D26D4F290FF49C004F0CF3 /* AuthSuccess.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				5275B232290C4EA50043BE5F /* DateManager.swift */,
+				52767B33291135A500F7CD16 /* DataManagerAccount.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -287,9 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D26D50290FF49C004F0CF3 /* AuthSuccess.swift in Sources */,
+				5294F455290D3E06001EBB98 /* PhoneMask.swift in Sources */,
 				52A1791D290AD1B800758BBC /* FavouritesViewController.swift in Sources */,
 				5275B233290C4EA50043BE5F /* DateManager.swift in Sources */,
 				52A17909290ACE5800758BBC /* ViewController.swift in Sources */,
+				52767B34291135A500F7CD16 /* DataManagerAccount.swift in Sources */,
 				52A17923290AEBCA00758BBC /* FeedCell.swift in Sources */,
 				52A17905290ACE5800758BBC /* AppDelegate.swift in Sources */,
 				5275B222290B2BC90043BE5F /* Article.swift in Sources */,
@@ -452,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BMP8HX9Y5;
 				INFOPLIST_FILE = "L-TECH/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BMP8HX9Y5;
 				INFOPLIST_FILE = "L-TECH/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

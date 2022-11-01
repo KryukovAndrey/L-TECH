@@ -71,9 +71,9 @@ final class FeedCell: UICollectionViewCell {
         let url = URL(string: urlString)
         imageView.kf.setImage(with: url)
         
-        print("---------------------------")
-        print(article.title)
-        print(urlString)
+//        print("---------------------------")
+//        print(article.title)
+//        print(urlString)
     }
     
     private func configureUI() {
