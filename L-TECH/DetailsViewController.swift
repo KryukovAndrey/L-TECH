@@ -71,6 +71,8 @@ final class DetailsViewController: UIViewController {
     // MARK: - Private func
     
     private func configureUI() {
+        view.backgroundColor = .white
+        
         let backButton = UIBarButtonItem()
         backButton.title = ""
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton

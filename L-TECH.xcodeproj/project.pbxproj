@@ -94,6 +94,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5246C23E291BC101008B2D81 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				52A17904290ACE5800758BBC /* AppDelegate.swift */,
+				52A17906290ACE5800758BBC /* SceneDelegate.swift */,
+				52A1790D290ACE5900758BBC /* Assets.xcassets */,
+				52A1790F290ACE5900758BBC /* LaunchScreen.storyboard */,
+				52A1790A290ACE5800758BBC /* Main.storyboard */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 		5275B220290B2B970043BE5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,9 +163,9 @@
 		52A17903290ACE5800758BBC /* L-TECH */ = {
 			isa = PBXGroup;
 			children = (
+				52A17912290ACE5900758BBC /* Info.plist */,
+				5246C23E291BC101008B2D81 /* System */,
 				5275B220290B2B970043BE5F /* Model */,
-				52A17904290ACE5800758BBC /* AppDelegate.swift */,
-				52A17906290ACE5800758BBC /* SceneDelegate.swift */,
 				52A17918290ACFEE00758BBC /* MainTabBarController.swift */,
 				52A1791A290AD10400758BBC /* LoginViewController.swift */,
 				52A17920290AD2BE00758BBC /* FeedViewController.swift */,
@@ -165,10 +177,6 @@
 				5275B223290BC4250043BE5F /* API */,
 				5275B22A290BD9810043BE5F /* Utls */,
 				52A17908290ACE5800758BBC /* ViewController.swift */,
-				52A1790A290ACE5800758BBC /* Main.storyboard */,
-				52A1790D290ACE5900758BBC /* Assets.xcassets */,
-				52A1790F290ACE5900758BBC /* LaunchScreen.storyboard */,
-				52A17912290ACE5900758BBC /* Info.plist */,
 			);
 			path = "L-TECH";
 			sourceTree = "<group>";

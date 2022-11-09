@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         addKeyboardEventsListeners()
     }
 
-//    /// Keyboard size
+    /// Keyboard size
     var keyboardSize: CGRect?
     
     fileprivate func addKeyboardEventsListeners() {
